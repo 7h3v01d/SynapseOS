@@ -1,0 +1,71 @@
+2025-07-20 11:34:05,587 - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-20 11:34:05,931 - https://huggingface.co:443 "HEAD /distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json HTTP/1.1" 200 0
+2025-07-20 11:34:07,281 - https://huggingface.co:443 "GET /api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 170
+2025-07-20 11:34:07,515 - https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-20 11:34:20,001 - [Input] Hello, what's the weather?
+2025-07-20 11:34:20,026 - [Tokens] ['Hello,', "what's", 'the', 'weather?']
+2025-07-20 11:34:20,067 - [Lexemes] ['hello,', "what's", 'the', 'weather?']
+2025-07-20 11:34:20,285 - [Intent] {'intent': 'get_weather', 'confidence': 0.9}
+2025-07-20 11:34:20,294 - [Response] Weather info coming up!
+2025-07-20 11:34:33,211 - [Input] Save your hand. How are you?
+2025-07-20 11:34:33,248 - [Tokens] ['Save', 'your', 'hand.', 'How', 'are', 'you?']
+2025-07-20 11:34:33,294 - [Lexemes] ['save', 'your', 'hand.', 'how', 'are', 'you?']
+2025-07-20 11:34:33,432 - [Intent] {'intent': 'offer_support', 'confidence': 0.9932045936584473}
+2025-07-20 11:34:33,463 - [Response] I'm here for you! What's on your mind?
+2025-07-20 11:34:48,857 - [Input] How are you? Let's stop.
+2025-07-20 11:34:48,900 - [Tokens] ['How', 'are', 'you?', "Let's", 'stop.']
+2025-07-20 11:34:48,932 - [Lexemes] ['how', 'are', 'you?', "let's", 'stop.']
+2025-07-20 11:34:49,090 - [Intent] {'intent': 'offer_support', 'confidence': 0.9991872906684875}
+2025-07-20 11:34:49,101 - [Response] I'm here for you! What's on your mind?
+2025-07-20 11:35:03,381 - [Input] the call. Hello, I'm
+2025-07-20 11:35:03,418 - [Tokens] ['the', 'call.', 'Hello,', "I'm"]
+2025-07-20 11:35:03,466 - [Lexemes] ['the', 'call.', 'hello,', "i'm"]
+2025-07-20 11:35:03,602 - [Intent] {'intent': 'greeting', 'confidence': 0.9930238723754883}
+2025-07-20 11:35:03,613 - [Response] Hey, nice to hear from you!
+2025-07-20 11:35:17,052 - [Input] That wave your hand dead.
+2025-07-20 11:35:17,110 - [Tokens] ['That', 'wave', 'your', 'hand', 'dead.']
+2025-07-20 11:35:17,157 - [Lexemes] ['that', 'wave', 'your', 'hand', 'dead.']
+2025-07-20 11:35:17,287 - [Intent] {'intent': 'command_action', 'confidence': 0.9}
+2025-07-20 11:35:17,300 - [Response] Got it, acting on your command!
+2025-07-20 11:35:33,955 - [Input] Hello, what's the weather?
+2025-07-20 11:35:33,990 - [Tokens] ['Hello,', "what's", 'the', 'weather?']
+2025-07-20 11:35:34,047 - [Lexemes] ['hello,', "what's", 'the', 'weather?']
+2025-07-20 11:35:34,187 - [Intent] {'intent': 'get_weather', 'confidence': 0.9}
+2025-07-20 11:35:34,199 - [Response] Weather info coming up!
+2025-07-20 11:35:48,289 - [Input] Wave your hand, power your...
+2025-07-20 11:35:48,320 - [Tokens] ['Wave', 'your', 'hand,', 'power', 'your...']
+2025-07-20 11:35:48,364 - [Lexemes] ['wave', 'your', 'hand,', 'power', 'your...']
+2025-07-20 11:35:48,489 - [Intent] {'intent': 'command_action', 'confidence': 0.9}
+2025-07-20 11:35:48,502 - [Response] Got it, acting on your command!
+2025-07-20 11:36:14,451 - [Input] you. Let's start the course.
+2025-07-20 11:36:14,490 - [Tokens] ['you.', "Let's", 'start', 'the', 'course.']
+2025-07-20 11:36:14,539 - [Lexemes] ['you.', "let's", 'start', 'the', 'course.']
+2025-07-20 11:36:14,685 - [Intent] {'intent': 'greeting', 'confidence': 0.9982280135154724}
+2025-07-20 11:36:14,698 - [Response] Hey, nice to hear from you!
+2025-07-20 11:36:24,395 - [Input] Hello, I'm sad.
+2025-07-20 11:36:24,444 - [Tokens] ['Hello,', "I'm", 'sad.']
+2025-07-20 11:36:24,491 - [Lexemes] ['hello,', "i'm", 'sad.']
+2025-07-20 11:36:24,599 - [Intent] {'intent': 'greeting', 'confidence': 0.7481222748756409}
+2025-07-20 11:36:24,613 - [Response] Hi there!
+2025-07-20 11:36:36,355 - [Input] Wave your hand, day.
+2025-07-20 11:36:36,391 - [Tokens] ['Wave', 'your', 'hand,', 'day.']
+2025-07-20 11:36:36,428 - [Lexemes] ['wave', 'your', 'hand,', 'day.']
+2025-07-20 11:36:36,568 - [Intent] {'intent': 'command_action', 'confidence': 0.9}
+2025-07-20 11:36:36,597 - [Response] Alright, performing the action!
+2025-07-20 13:12:35,306 - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-20 13:12:35,614 - https://huggingface.co:443 "HEAD /distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json HTTP/1.1" 200 0
+2025-07-20 13:12:36,986 - https://huggingface.co:443 "GET /api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 170
+2025-07-20 13:12:37,228 - https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-20 13:12:52,013 - [Input] one two
+2025-07-20 13:12:52,051 - [Tokens] ['one', 'two']
+2025-07-20 13:12:52,084 - [Lexemes] ['one', 'two']
+2025-07-20 13:12:52,276 - [Intent] {'intent': 'greeting', 'confidence': 0.9921987652778625}
+2025-07-20 13:12:52,293 - [Response] Hello! What's up?
+2026-02-02 18:54:11,302 - Starting new HTTPS connection (1): huggingface.co:443
+2026-02-02 18:54:12,253 - https://huggingface.co:443 "HEAD /distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json HTTP/1.1" 200 0
+2026-02-02 18:54:12,510 - https://huggingface.co:443 "HEAD /distilbert-base-uncased-finetuned-sst-2-english/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2026-02-02 18:54:13,022 - https://huggingface.co:443 "GET /api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 170
+2026-02-02 18:54:13,262 - https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2026-02-02 18:54:13,492 - https://huggingface.co:443 "GET /api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=True&expand=False HTTP/1.1" 307 143
+2026-02-02 18:54:13,727 - https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=True&expand=False HTTP/1.1" 200 2833
+2026-02-02 19:23:18,796 - Starting new HTTPS connection (1): huggingface.co:443
